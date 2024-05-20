@@ -15,6 +15,19 @@
     margin-left: -10px;
     position: fixed;
 }
+.menu{
+    display: flex;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    top: 130px;
+    left: 39px;
+    color: #fff;
+}
+.menu ul li a, a:visited a:active{
+    color: #fff;
+    text-decoration: none;
+}
 .banner-text{
     color: #fff;
     text-align: center;
