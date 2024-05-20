@@ -12,6 +12,7 @@
 }
 .logo{
     width: 150px;  
+    height: auto;
     margin-left: -10px;
     position: fixed;
 }
@@ -72,4 +73,32 @@
 .menu ul li a, a:visited a:active{
     color: #fff;
     text-decoration: none;
+}
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    .banner-text h1 {
+        font-size: 24px;
+    }
+    .OfficialMC, .TLauncher {
+        padding: 10px;
+    }
+    .menu a {
+        font-size: 16px;
+    }
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+    .menu{
+        position: fixed;
+        top: 40px;
+        left: 90px;
+        color: #fff;
+    }
+    .logo{
+        width: 100px;  
+        height: auto;
+        margin-left: -10px;
+        position: fixed;
+    }
 }
