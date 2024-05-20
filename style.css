@@ -5,7 +5,7 @@
 }
 .banner{
     width: 100%;
-    background-image: url("img\minecraft-background.png");
+    background-image: linear-gradient(rgba(0,0,0,0.05),#050505), url("background.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
