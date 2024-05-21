@@ -3,8 +3,14 @@ const PI2 = Math.PI * 2
 const random = (min, max) => Math.random() * (max - min + 1) + min | 0
 const timestamp = _ => new Date().getTime()
 
-var audio = new Audio('sound/HB.mp3');
-audio.play();
+/* var audio = new Audio('HB.mp3');
+audio.play(); */
+
+const soundEffect = new Audio('HB.mp3');
+soundEffect.autoplay = true;
+
+/* var audio1 = document.getElementById('HB.mp3');
+audio1.play(); */
 
 // container
 class Birthday {
