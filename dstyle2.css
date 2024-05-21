@@ -3,12 +3,9 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-/*   background-color: #fff;
-  background-image: url(https://cdn.shopify.com/s/files/1/2504/3282/files/marbles_seemless.jpg?5912703254077228492); */
   margin: 0;
   background: #020202;
 }
-
 
 .d-flex {
   display: flex;
@@ -25,12 +22,14 @@ body {
 .gift-card {
   position:absolute;
   border-radius: 10px;
-  background: #fafafa;
+  border-color: #fff;
+  background: #857d7d;
   width: 430px;
   color: #3d3d3d;
   font-family: sans-serif;
   display: flex;
-	box-shadow: 0 1px 5px rgba(0, 0, 0, 0.2); 
+	box-shadow: 0 2px 5px rgba(175, 175, 175, 0.849); 
+  background-image: url(https://img.freepik.com/free-vector/white-abstract-background_23-2148817572.jpg?w=1380&t=st=1716253123~exp=1716253723~hmac=dbea1f0c35e8d8970ef6fc4fdb19fd806ee3bda0ea2e19259dc4334cb074b293);
 }
 
 .gift-card__image {
