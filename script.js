@@ -6,14 +6,12 @@ const timestamp = _ => new Date().getTime()
 /* var audio = new Audio('HB.mp3');
 audio.play(); */
 
-/* const soundEffect = new Audio('sound/HB.mp3');
+/* const soundEffect = new Audio('HB.mp3');
 soundEffect.autoplay = true; */
 
-var mp3 = document.createElement("audio");
-   mp3.setAttribute('src', 'sound/HB.mp3');
-   mp3.load();
-   document.documentElement.appendChild(mp3);
-   mp3.play();
+const soundEffect = new Audio();
+soundEffect.autoplay = true;
+soundEffect.src = 'sound/HB.mp3';
 
 /* var audio1 = document.getElementById('HB.mp3');
 audio1.play(); */
