@@ -6,7 +6,7 @@ const timestamp = _ => new Date().getTime()
 /* var audio = new Audio('HB.mp3');
 audio.play(); */
 
-const soundEffect = new Audio('HB.mp3');
+const soundEffect = new Audio('sound/HB.mp3');
 soundEffect.autoplay = true;
 
 /* var audio1 = document.getElementById('HB.mp3');
